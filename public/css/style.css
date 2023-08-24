@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bricolage Grotesque", sans-serif;
+  padding-right: 100px;
+  color: rgb(238, 235, 231);
+  background: center url(/discover-me/img/NY-style/new-york-style_f2w4sy_c_scale\,w_1920.png);
+  height: 100vh;
+}
+body ul {
+  list-style-type: none;
+}
+body a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 500ms;
+}
+body a:hover {
+  transform: scale(1.2);
+  color: rgb(241, 176, 90);
+}
+
+header {
+  margin: 70px auto;
+  max-width: 1000px;
+}
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav ul li {
+  margin-left: 40px;
+}
+
+main {
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+main h1 {
+  text-align: right;
+  font-size: 4rem;
+}
+main p {
+  font-size: 3rem;
+}
+main section.title {
+  text-align: right;
+  margin: 0 0 90px;
+}
+main section.projects {
+  text-align: right;
+  font-size: 1.7rem;
+}
+main section.projects h2 {
+  margin-bottom: 30px;
+}
+main section.projects ul {
+  font-family: "Tilt Prism", cursive;
+  text-align: center;
+}
+main section.projects ul li {
+  margin: 10px 0;
+  border-top: 2px solid;
+}
+main section.projects ul li a {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
