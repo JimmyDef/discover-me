@@ -6,12 +6,21 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("chemin/vers/votre-image.jpg");
+}
+
 body {
   font-family: "Bricolage Grotesque", sans-serif;
-  padding-right: 100px;
+  padding: 100px;
   color: rgb(238, 235, 231);
-  background: center url(/discover-me/img/NY-style/new-york-style_f2w4sy_c_scale\,w_1920.png);
-  height: 100vh;
+  background-image: url(/discover-me/img/NY-style/new-york-style_f2w4sy_c_scale\,w_1920.png);
+  background-size: cover;
+  background-position: center;
 }
 body ul {
   list-style-type: none;
@@ -39,7 +48,7 @@ header nav ul li {
 }
 
 main {
-  margin: auto;
+  margin: 0 auto;
   max-width: 1000px;
   display: flex;
   justify-content: space-between;
